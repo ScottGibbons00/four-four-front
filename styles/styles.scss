@@ -1,0 +1,16 @@
+@import "./utls/variables.scss";
+@import "./components/navbar.scss";
+@import "./components/landing.scss";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: $ff-dark;
+    color: $ff-white;
+    font-family: "Inter", sans-serif;
+  }
