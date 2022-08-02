@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 90vh;
+    margin-top: 10%;    
 
     #center-div{
         background-color: $ff-purple;
@@ -13,6 +14,26 @@
         align-items: center;
         border-radius: 40px;
         width: 40%;
-        height: 40%;
+        min-height: 400px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+
+        button{
+            border: none;
+            width: 200px;
+            height: 60px;
+            border-radius: 15px;
+            font-size: 1.2em;
+            color: $ff-white;
+        }
+        button#cta-1{
+            background-color: $ff-teal;
+        }
+        button#cta-2{
+            background-color: $ff-secondary-teal;
+        }
     }
 }
